@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 
 export default function Home() {
@@ -74,7 +76,6 @@ export default function Home() {
           line-height: 1.5;
         }
 
-        /* Responsivo opcional: empilha no mobile */
         @media (max-width: 700px) {
           .container {
             flex-direction: column;
