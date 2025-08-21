@@ -9,7 +9,7 @@ export default function Home() {
           className="w-64 h-64 rounded-xl object-cover shadow-md"
         />
 
-        {/* Texto */}
+        {}
         <div className="text-left text-gray-900">
           <h1 className="text-3xl font-bold mb-4">NOEMI SOARES</h1>
 
