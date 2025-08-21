@@ -1,11 +1,15 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen items-center justify-center bg-gray-100 p-6">
       <div className="flex gap-10 max-w-4xl items-center bg-white shadow-lg rounded-2xl p-8">
         {}
-        <img
+        <Image
           src="/images/me.jpeg"
           alt="Minha Foto"
+          width={256}
+          height={256}
           className="w-64 h-64 rounded-xl object-cover shadow-md"
         />
 
@@ -25,8 +29,7 @@ export default function Home() {
           </p>
 
           <p className="italic text-gray-600">
-            "Trabalho duro é inútil para aqueles que não acreditam em si
-            mesmos."
+            &quot;Trabalho duro é inútil para aqueles que não acreditam em si mesmos.&quot;
           </p>
         </div>
       </div>
