@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "mini_bio_expo",
-    "slug": "mini_bio_expo",
+    "name": "mini_bio_mobile",
+    "slug": "mini_bio_mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "minibioexpo",
+    "scheme": "minibiomobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
